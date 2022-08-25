@@ -16,6 +16,26 @@ body {
   background: transparent;
   
 }
+
+.bienvenida{
+  text-transform: uppercase;
+  display: block;
+  white-space: nowrap;
+  width: 19ch;
+  border-right: solid;
+  animation: typing 2s steps(25), blink .5s alternate infinite step-end;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {width: 0}
+}
+@keyframes blink{
+  50% {border-color: transparent}
+}
+
+
+
+
 body::before {
   content: "";
   position: fixed;
@@ -114,9 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #18d26e;
 }
 @media (max-width: 992px) {
-  #header h1 {
-    font-size: 36px;
-  }
+
   #header h2 {
     font-size: 20px;
     line-height: 30px;
@@ -161,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   #header.header-top h1 {
     font-size: 26px;
   }
+ 
 }
 
 /*--------------------------------------------------------------
