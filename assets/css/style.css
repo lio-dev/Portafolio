@@ -16,26 +16,6 @@ body {
   background: transparent;
   
 }
-
-.bienvenida{
-  text-transform: uppercase;
-  display: block;
-  white-space: nowrap;
-  width: 19ch;
-  border-right: solid;
-  animation: typing 2s steps(25), blink .5s alternate infinite step-end;
-  overflow: hidden;
-}
-@keyframes typing {
-  from {width: 0}
-}
-@keyframes blink{
-  50% {border-color: transparent}
-}
-
-
-
-
 body::before {
   content: "";
   position: fixed;
@@ -147,6 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
   }
+ 
 }
 
 /* Header Top */
